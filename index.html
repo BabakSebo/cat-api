@@ -14,7 +14,16 @@
         <ul>
           <li><a href="#">Facts</a></li>
           <li><a href="#">Jokes </a></li>
-          <li><a href="#">Breeds</a></li>
+          <li><a href="#">Breeds</a> </li>
+          <select onchange="showBreedImage(value)" name="breed_selector" id="breed_selector">
+        </select>
+        <div>
+        <a id="wiki_link" target="_blank"></a>
+        <div id="breed_json"></div>
+        </div>
+        <div>
+        <img id="breed_image"></img>
+        </div> 
         </ul>
       </div>
       <div class="container">
